@@ -1,8 +1,14 @@
 import Head from 'next/head'
 import Link from 'next/link';
-
+import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 export default function Home() {
+  const router = useRouter();
+
+  const handleButtonClick = () => {
+    router.push('/about');
+  };
   return (
 <div className="landing-page">
       <Head>
@@ -12,14 +18,14 @@ export default function Home() {
       </Head>
       <header>
         <div className="container">
-          <Link href="/index">
+          <Link href="/">
             <a className="logo flex pay">
               Flex <b>Pay</b>
             </a>
           </Link>
           <ul className="links">
             <li className="selected">
-              <Link href="/index">Главная</Link>
+              <Link href="/">Главная</Link>
             </li>
             <li>
               <Link href="/about"> Документация</Link>
@@ -37,13 +43,13 @@ export default function Home() {
               API, больше не нужно задумыватся о подключении мерчантов и подписи
               платежей
             </p>
-            <button className="btn0" >
-              Начать
+            <button className="btn0" onClick={handleButtonClick}>
+              Начать 
             </button>
           </div>
 
           <div className="image">
-            <img src="/src/image.jpg" alt="" />
+            <Image src="/src/image.jpg" alt="" />
           </div>
         </div>
       </div>

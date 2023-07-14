@@ -11,12 +11,12 @@ const AboutUsPage: NextPage = () => {
         </Head><div className="landing-page">
           <header>
             <div className="container">
-              <Link href="/index" className="logo flex pay">
+              <Link href="/" className="logo flex pay">
                 Flex <b>Pay</b>
               </Link>
               <ul className="links">
                 <li>
-                  <Link href="/index">Главная</Link>
+                  <Link href="/">Главная</Link>
                 </li>
                 <li className="selected">Документация</li>
               </ul>
