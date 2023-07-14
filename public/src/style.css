@@ -81,6 +81,7 @@
     }
   }
   .landing-page header .links {
+    padding-top: 30px;
     display: flex;
     align-items: center;
   }
