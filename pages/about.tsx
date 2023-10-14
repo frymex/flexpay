@@ -27,7 +27,7 @@ const AboutUsPage: NextPage = () => {
               <div className="info docs">
                 <h5>Инструкция по использованию нашего API:</h5>
                 <p style={{ color: "black" }}>
-                Стандартный запрос: <strong><code>https://pay.{"{domain}"}/kassa/{"merchant"}/create_bill или
+                Стандартный запрос: <strong><code>https://pay.{"{domain}"}/kassa/{"{merchant}"}/create_bill или
                     check_bill</code></strong><br /><br />
 
                     Доступные мерчанты (на 13.07.2023):<br />
