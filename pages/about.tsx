@@ -35,8 +35,7 @@ const AboutUsPage: NextPage = () => {
                     - enot<br />
                     - cryptobot<br /><br />
 
-                    Доступные домены (на 13.07.2023):<br />
-                    - cazqev.com (pay.cazqev.com)<br />
+                    Доступные домены (на 14.10.2023):<br />
                     - cazqev.dev (pay.cazqev.dev)<br /><br/><br/>
 
                     Документация <b>V1</b>:<br /><br />
